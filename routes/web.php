@@ -21,3 +21,12 @@ Route::get('hello',function(){
 Route::get('hello/thanh',function(){
     echo"<h1>chào các bạn</h1>";
 });
+Route::get('hello2','HelloController@index');
+Route::get('thongtin','HelloController@showinfo');
+
+Route::get('/test',function(){
+    return view('test',['name'=>'Nguyễn thành']);
+});
+Route::get('users/{name?}', function($name = "Nguyễn thành"){
+echo'tên của bạn là:'.$name;
+});

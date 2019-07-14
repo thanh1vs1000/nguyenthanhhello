@@ -7,17 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Nguyễn văn thành</h1>
-    <table border=1>
-        <tr>
-            <th>Thông tin</th>
-            <th>Kết quả</th>
-        </tr>
-        <tr>
-            <th>Tên</th>
-            
-        </tr>
-    
-    </table>
+    <h1>Chào mừng <?=$name?>!</h1>
 </body>
 </html>

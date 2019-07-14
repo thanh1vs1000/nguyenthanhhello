@@ -16,7 +16,11 @@ class HelloController extends Controller
         //
         return view('hello');
     }
-
+     
+    public function showinfo()
+    {
+       return view('Hello');
+    }
     /**
      * Show the form for creating a new resource.
      *
